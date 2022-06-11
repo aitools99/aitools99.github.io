@@ -77,7 +77,7 @@
           var providerData = user.providerData;
 
           firebase.auth().currentUser.getIdToken(true).then(function(idToken) {
-            fetch("http://123.16.55.212:58/check_token", {
+            fetch("https://123.16.55.212:58/check_token", {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
